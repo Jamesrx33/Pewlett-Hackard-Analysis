@@ -4,14 +4,14 @@
 
 ---
 ## Overview
-This report will enumerate the count of current retirment-age employees at Pewlett Hackerd on a per department basis and identify employees who are eligible for a Mentorship Program based on a 1965 birthdate. Business impact will be provided in the summary section, along with pertinent query suggestions for additional analysis.
+This report will enumerate the current retirment-age employees at Pewlett Hackerd on a per department basis and identify employees who are eligible for a Mentorship Program based on a 1965 birthdate. The business impact of the "silver tsunami" will be provided in the summary section, along with pertinent query suggestions for additional analysis.
 
 ---
 ## **<p align="center">Retirement-Age Employees per Department</p>**
 ---
 
 <p align="center">
-   <img width="700" height="180" src="https://github.com/Jamesrx33/pyber-analysis/blob/main/analysis/Pyber_Summary_Table.png?raw=true">
+   <img width="500" height="180" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Retirement_By_Dept.png?raw=true">
 </p>
 
 1. **Volume of Rides:** The amount of rides by city type increases as you approach more populated areas.
@@ -20,7 +20,10 @@ This report will enumerate the count of current retirment-age employees at Pewle
 3. **Average Fare Costs:** Rural and Suburban cities garner significantly more Fare Revenue per ride and per driver than Urban Cities.
 
 ---
-## **<p align="center">Visualization of Total Fares </p>**
+## **<p align="center">Eligible Mentorship Employees</p>**
+
+### **<p align="center"> [Link to Mentorship Table](https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv) </p>**
+
 ---
 
 **<p align="center">Urban cities garner significantly more total Fare Revenue than other city types</p>**
