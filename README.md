@@ -4,7 +4,7 @@
 
 ---
 ## Overview
-This report will enumerate the current retirment-age employees at Pewlett Hackerd on a per department basis and identify employees who are eligible for a Mentorship Program based on a 1965 birthdate. The business impact of the "silver tsunami" will be provided in the summary section, along with pertinent query suggestions for additional analysis.
+This report will enumerate the current retirment-age employees at Pewlett Hackerd on a per department basis and identify employees who are eligible for a Mentorship Program based on a 1965 birthdate. The results of our analysis are displayed below and a Summary statement addresses the busines impact of the "silver tsunami." Finally, additional query suggestions are provided for further pertinent analysis.
 
 ---
 ## **<p align="center">Retirement-Age Employees per Department</p>**
@@ -14,34 +14,32 @@ This report will enumerate the current retirment-age employees at Pewlett Hacker
    <img width="500" height="180" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Retirement_By_Dept.png?raw=true">
 </p>
 
-1. **Volume of Rides:** The amount of rides by city type increases as you approach more populated areas.
-2. **Number of Drivers:** The number of available drivers also increases as the city type approaches Urban.
-   >As a result of an increased availability of drivers and greater volume of rides, Urban cities total more than 200% of the Total Suburban city Fare Revenue and 900% of the Total Rural city Fare Revenue.
-3. **Average Fare Costs:** Rural and Suburban cities garner significantly more Fare Revenue per ride and per driver than Urban Cities.
+1. **Overall Departmental Impacts:** There are 36,619 employees soon to retire over the 9 departments.
+2. **Least Affected Departments:** The Finance and Human Resources departments account for little over 10% of the total soon to be retirees.
+3. **Most Affected Departments:** The Development and Production departments collectively have over 47% of the soon to be retirees.
 
 ---
 ## **<p align="center">Eligible Mentorship Employees</p>**
 
 ### **<p align="center"> [Link to Mentorship Table](https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Data/mentorship_eligibility.csv) </p>**
 
+<p align="center">
+   <img width="800" height="400" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Mentorship_Eligible_Table.png?raw=true">
+</p>
+
 ---
 
-**<p align="center">Urban cities garner significantly more total Fare Revenue than other city types</p>**
-  > (Urban: Yellow, Suburban: Red, Rural: Blue)
-   
-<p align="center">
-   <img width="1100" height="300" src="https://github.com/Jamesrx33/pyber-analysis/blob/main/analysis/PyBer_fare_summary.png?raw=true">
-</p>
+1. **Number of Eligible Employees:** There are 1,549 (1,550 Minus Header Row) employees born in 1965 that would be suitable for a mentorship program.
+2. **Majority Title:** The majority of these eligible employees have the "Senior Staff" or "Engineer" title.
 
 ---
 ## Summary
 ---
 
-The total Fare Revenue is greatest from Urban cities, however, Suburban and Rural cities garner a greater per-ride and per-driver fare. In order to increase overall Fare Revnue, i would suggest the following:
-
-1. Hire additonal drivers for Rural and Suburban cities.
-2. Increase the Fare cost in Urban and Suburban cities to reflect the respective demand based on total rides.
-3. Reduce the number of drivers for Urban cities, as there is a surplus of drivers-to-rides.
+1. Within the next five years, there will be an employee deficit of 36,619 individuals.
+   - It is recommended that Pewlett Hackard aim to hire 7,324 employees each year for the following five years to accommodate these changes.
+3. Increase the Fare cost in Urban and Suburban cities to reflect the respective demand based on total rides.
+4. Reduce the number of drivers for Urban cities, as there is a surplus of drivers-to-rides.
 
 ---
 
