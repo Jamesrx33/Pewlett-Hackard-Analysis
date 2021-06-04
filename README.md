@@ -45,7 +45,7 @@ This report will enumerate the current retirment-age employees at Pewlett Hacker
    <img width="800" height="400" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Retirement_vs_Mentors.png?raw=true">
 </p>
 
-3. **Suggested Additional Analysis:** Replacements need to be found for the two retiring department managers. The following querys will compile a list of current employees, their title and department. These can be used to select a replacement manager for the departements losing one.
+3. **Suggested Additional Analysis:** Replacements need to be found for the two retiring department managers. The following querys will compile a list of current employees, their title and department. These can be used to select a replacement manager for the departments losing one.
 
 <p align="center">
    <img width="800" height="800" src="https://github.com/Jamesrx33/Pewlett-Hackard-Analysis/blob/main/Visuals/Query%20Suggestions.png?raw=true">
